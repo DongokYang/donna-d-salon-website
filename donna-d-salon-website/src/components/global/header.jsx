@@ -1,49 +1,67 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="bg-black text-white p-4">
-      <nav className="container mx-auto flex justify-between items-center">
-        {/* Left Logo */}
+      <nav className="container mx-auto flex justify-between gap-3 items-center">
         <div>
           <img
-            src="src\assets\global\salonlogo.png"
+            src="src/assets/global/salonlogo.png"
             alt="Salon Logo"
             className="h-12"
           />
         </div>
-        {/* Right Navigation Links */}
-        <div className="flex items-center space-x-6">
-          <Link
+        <div className="flex items-center space-x-10">
+          <NavLink
             to="/"
-            className="text-gold font-medium hover:text-white transition-colors"
+            className={({ isActive }) =>
+              isActive
+                ? "hover:scale-95 duration-300 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent"
+                : "hover:scale-95 duration-300"
+            }
           >
-            HOME
-          </Link>
-          <Link
+            <h4>HOME</h4>
+          </NavLink>
+          <NavLink
             to="/about"
-            className="text-gold font-medium hover:text-white transition-colors"
+            className={({ isActive }) =>
+              isActive
+                ? "hover:scale-95 duration-300 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent"
+                : "hover:scale-95 duration-300"
+            }
           >
-            ABOUT US
-          </Link>
-          <Link
+            <h4>ABOUT US</h4>
+          </NavLink>
+          <NavLink
             to="/services"
-            className="text-gold font-medium hover:text-white transition-colors"
+            className={({ isActive }) =>
+              isActive
+                ? "hover:scale-95 duration-300 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent"
+                : "hover:scale-95 duration-300"
+            }
           >
-            SERVICES
-          </Link>
-          <Link
+            <h4>SERVICES</h4>
+          </NavLink>
+          <NavLink
             to="/gallery"
-            className="text-gold font-medium hover:text-white transition-colors"
+            className={({ isActive }) =>
+              isActive
+                ? "hover:scale-95 duration-300 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent"
+                : "hover:scale-95 duration-300"
+            }
           >
-            GALLERY
-          </Link>
-          <Link
+            <h4>GALLERY</h4>
+          </NavLink>
+          <NavLink
             to="/book-now"
-            className="bg-gold text-white font-bold py-2 px-4 rounded"
+            className={({ isActive }) =>
+              isActive
+                ? "hover:scale-[85%] duration-300 scale-90 text-black bg-gradient-to-r from-customGoldStart to-customGoldEnd rounded-full font-bold py-2 px-4"
+                : "hover:scale-[85%] duration-300 scale-90 bg-gradient-to-r from-customGoldStart to-customGoldEnd rounded-full font-bold py-2 px-4 text-black"
+            }
           >
-            BOOK NOW
-          </Link>
+            <h4>BOOK NOW</h4>
+          </NavLink>
         </div>
       </nav>
     </header>
