@@ -36,7 +36,7 @@ function Section1() {
       <div className="container grid gap-10 mx-auto md:translate-y-[8rem] 2xl:translate-y-[10rem] place-items-center md:place-items-start">
         <div className="grid gap-4 lg:gap-5 text-center md:text-start">
           <h3 className="animate-h3">Welcome to</h3>
-          <h1 className="animate-h1 text-4xl md:text-5xl lg:text-7xl bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
+          <h1 className="animate-h1 text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
             Donna D'
             <br /> Stylist Salon
           </h1>
@@ -54,7 +54,7 @@ function Section1() {
       <img
         src={main_image}
         alt="Main image"
-        className="md:max-w-[30rem] lg:max-w-[50rem] 2xl:max-w-[60rem] w-full h-auto md:absolute bottom-0 right-0"
+        className="md:max-w-[30rem] lg:max-w-[45rem] 2xl:max-w-[60rem] w-full h-auto md:absolute bottom-0 right-0"
       />
     </div>
   );
