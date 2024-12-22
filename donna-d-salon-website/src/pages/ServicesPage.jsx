@@ -48,7 +48,7 @@ export default function Services() {
   }, [services]); // 서비스 데이터가 로드된 후 실행
 
   return (
-    <div className="bg-black">
+    <div className="bg-black pt-[5rem]">
       <div className="container mx-auto p-6">
         <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
           Our Services

@@ -33,14 +33,16 @@ module.exports = {
         'h1-md': ['40px', { lineHeight: '1.5' }],
         'h2': ['23px', { lineHeight: '1.5' }],
         'h2-md': ['25px', { lineHeight: '1.5' }], 
-        'h3': ['23px', { lineHeight: '1.5' }],
-        'h3-md': ['24px', { lineHeight: '1.5' }], 
+        'h3': ['25px', { lineHeight: '1.5' }],
+        'h3-md': ['30px', { lineHeight: '1.5' }], 
+        'h3-lg': ['40px', { lineHeight: '1.5' }], 
+
         'h4': ['16px', { lineHeight: '1.5' }], 
         'h4-md': ['17px', { lineHeight: '1.5' }], 
         'h4-lg': ['18px', { lineHeight: '1.5' }],
         'p': ['15px', { lineHeight: '1.8' }],
-        // 'p-md': ['16px', { lineHeight: '1.9' }],
-        'p-lg': ['16px', { lineHeight: '1.9' }], 
+        'p-md': ['16px', { lineHeight: '1.9' }],
+        'p-lg': ['17px', { lineHeight: '1.9' }], 
       },
       
     },
@@ -56,15 +58,18 @@ module.exports = {
           },
         },
         'h2': {
-          '@apply font-Aboreto text-h2': {},
+          '@apply font-Aboreto text-h2 text-white': {},
           '@screen md': {
             '@apply text-h2-md': {},
           },
         },
         'h3': {
-          '@apply font-Brush text-h3': {},
+          '@apply font-Brush text-h3 text-white': {},
           '@screen md': {
             '@apply text-h3-md': {},
+          },
+          '@screen lg': {
+            '@apply text-h3-lg': {},
           },
         },
         'h4': {
@@ -78,9 +83,9 @@ module.exports = {
         },
         'p': {
           '@apply font-Lato text-p text-white font-[300]': {},
-          // '@screen md': {
-          //   '@apply text-p-md': {},
-          // },
+          '@screen md': {
+            '@apply text-p-md': {},
+          },
           '@screen lg': {
             '@apply text-p-lg': {},
           },

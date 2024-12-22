@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import logo from "/public/image/global/logo.png"
 
 export default function Footer() {
   return (
@@ -12,9 +13,9 @@ export default function Footer() {
           {/* Logo Section */}
           <div className="flex-1 flex justify-center md:justify-start">
             <img
-              src="src/assets/global/salonlogoWtext.png"
-              alt="Salon Logo"
-              className="h-30 md:h-36"
+              src={logo}
+              alt="Logo"
+              className="max-w-[4rem] w-full h-auto object-contain"
             />
           </div>
 
