@@ -81,7 +81,7 @@ function Section3() {
           Customer Reviews
         </h2>
         <a
-          href="https://www.google.com"
+          href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsSbfMLa6oMGC0UjWoMDVKTTQ3MTQ0SUxOM04yM7UyqLBINTZOSTRMM002tDBONrbw4k_Jz8tLVEhRKC6pzMksLgEAv7cU7A&q=donna+d+stylist&oq=donna+d+s&gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyBggAEEUYOTIQCAEQLhivARjHARiABBiOBTIHCAIQLhiABDINCAMQLhivARjHARiABDIKCAQQABgKGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDM5NDZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x52ea74114acf3b65:0x8e33da1f5c183c38,1,,,,"
           className="lg:flex flex-1 group justify-end hidden"
         >
           <p className="group-hover:text-customGoldStart pr-3 duration-300">
