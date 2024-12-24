@@ -62,7 +62,7 @@ function Section2() {
           </div>
 
           {/* Images */}
-          <div className="md:flex grid gap-10 grid-cols-2 items-start relative xl:gap-[7rem] 2xl:gap-[10rem] xl:px-[4rem] 2xl:px-[8rem]">
+          <div className="md:flex grid gap-10 grid-cols-2 items-start relative md:px-10 xl:gap-[7rem] 2xl:gap-[10rem] xl:px-[4rem] 2xl:px-[8rem]">
             {[
               { img: services1, title: "Men’s Haircuts" },
               { img: services2, title: "Women’s Haircuts" },

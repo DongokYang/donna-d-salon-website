@@ -21,7 +21,7 @@ function Section4() {
         <img
           src={instagramAccount}
           alt="Instagram account image"
-          className="md:max-w-full md:px-10 lg:max-w-[40rem] md:max-h-[30rem] object-contain w-full h-auto self-end mt-5"
+          className=" px-10 translate-y-5 md:max-w-full md:px-10 lg:max-w-[40rem] md:max-h-[30rem] object-contain w-full h-auto self-end mt-5"
         />
       </div>
       {/* <div className="grid h-[rem]">

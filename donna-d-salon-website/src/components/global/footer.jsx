@@ -20,19 +20,19 @@ export default function Footer() {
           </div>
 
           {/* Salon Hours */}
-          <div className="h-fit flex-1 flex flex-col items-center md:items-start md:border-l md:border-gray-300 md:pl-6 space-y-2 text-center md:text-left">
+          <div className="h-fit flex-1 flex flex-col items-center md:items-start md:border-l md:border-customGoldEnd md:pl-6 space-y-2 text-center md:text-left">
             <h4 className="bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">SALON HOURS</h4>
             <p>Tue–Sat: 9:00am–6:00pm</p>
           </div>
 
           {/* Address */}
-          <div className="h-fit flex-1 flex flex-col items-center md:items-start md:border-l md:border-gray-300 md:pl-6 space-y-2 text-center md:text-left">
+          <div className="h-fit flex-1 flex flex-col items-center md:items-start md:border-l md:border-customGoldEnd md:pl-6 space-y-2 text-center md:text-left">
             <h4 className="bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">ADDRESS</h4>
             <p>1551 Arlington Street</p>
           </div>
 
           {/* Contact */}
-          <div className="flex-1 flex flex-col items-center md:items-start md:border-l md:border-gray-300 md:pl-6 space-y-2 text-center md:text-left">
+          <div className="flex-1 flex flex-col items-center md:items-start md:border-l md:border-customGoldEnd md:pl-6 space-y-2 text-center md:text-left">
             <h4 className="bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">CONTACT</h4>
             <p><FontAwesomeIcon icon={faPhone} /><span className="ml-3">{""}</span>(204) 599 3161 | (204) 813 1991</p>
             <p><FontAwesomeIcon icon={faEnvelope} /><span className="ml-3">{""}</span>donnadstylist1551@gmail.com</p>

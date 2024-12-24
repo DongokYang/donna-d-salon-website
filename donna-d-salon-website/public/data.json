@@ -26,44 +26,44 @@
         "price": "$20+"
       }
     ],
-    "Styling": [
-      {
-        "id": 5,
-        "serviceName": "Wash & Style (Short)",
-        "description": "A refreshing wash followed by a sleek style for short hair",
-        "price": "$35+"
-      },
-      {
-        "id": 6,
-        "serviceName": "Wash and Style (Long)",
-        "description": "A luxurious wash and professional styling for long, flowing locks",
-        "price": "$50+"
-      },
-      {
-        "id": 7,
-        "serviceName": "Formal Updo (Glam)",
-        "description": "Elegant, sophisticated updo for special occasions or parties",
-        "price": "$80+"
-      }
-    ],
     "Color": [
       {
-        "id": 8,
+        "id": 5,
         "serviceName": "Root Retouch",
         "description": "Refresh your natural color with a precise root touch-up",
         "price": "$100+"
       },
       {
-        "id": 9,
+        "id": 6,
         "serviceName": "Full Color",
         "description": "Achieve vibrant, all-over color for a fresh, polished look",
         "price": "$150+"
       },
       {
-        "id": 10,
+        "id": 7,
         "serviceName": "Toner",
         "description": "Enhance or correct your color with a custom toner application",
         "price": "$100+"
+      }
+    ],
+    "Styling": [
+      {
+        "id": 8,
+        "serviceName": "Wash & Style (Short)",
+        "description": "A refreshing wash followed by a sleek style for short hair",
+        "price": "$35+"
+      },
+      {
+        "id": 9,
+        "serviceName": "Wash and Style (Long)",
+        "description": "A luxurious wash and professional styling for long, flowing locks",
+        "price": "$50+"
+      },
+      {
+        "id": 10,
+        "serviceName": "Formal Updo (Glam)",
+        "description": "Elegant, sophisticated updo for special occasions or parties",
+        "price": "$80+"
       }
     ],
     "Blonding Service": [

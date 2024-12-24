@@ -30,7 +30,7 @@ module.exports = {
 
       fontSize: {
         h1: ["30px", { lineHeight: "1.5", letterSpacing: "0.03em" }],
-        "h1-md": ["38px", { lineHeight: "1.5" }],
+        "h1-md": ["35px", { lineHeight: "1.5" }],
         h2: ["23px", { lineHeight: "1.5" }],
         "h2-md": ["25px", { lineHeight: "1.5" }],
         h3: ["38px", { lineHeight: "1.5" }],
