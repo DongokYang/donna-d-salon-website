@@ -1,74 +1,65 @@
-import React, { useEffect, useState, useRef } from "react";
-import gsap from "gsap";
+import React, { useEffect, useState } from "react";
 
 function ServiceItem({ service }) {
   return (
-    <div className="rounded-sm p-4 mb-4 bg-white bg-opacity-95">
-      <div className="flex justify-between items-center pb-2">
-        <h4 className="text-lg font-semibold text-gray-800">
+    <div className="service-item py-4 border-l-2 border-customGold pl-4">
+      <div className="flex justify-between items-center">
+        <h4 className="text-lg font-semibold text-white">
           {service.serviceName}
         </h4>
-        <p className="font-medium text-customGrayDark">{service.price}</p>
+        <p className=" font-bold text-lg">{service.price}</p>
       </div>
-      <p className="text-gray-600">{service.description}</p>
+      <p className="text-sm text-gray-400 mt-1">{service.description}</p>
+    </div>
+  );
+}
+
+function ServiceCategory({ category, services }) {
+  return (
+    <div className="mb-10">
+      <h1 className="text-2xl font-bold text-customGold mb-6">
+        {category.toUpperCase()}
+      </h1>
+      {services.map((service) => (
+        <ServiceItem key={service.id} service={service} />
+      ))}
     </div>
   );
 }
 
 export default function Services() {
-  const [services, setServices] = useState([]);
-  const categoryRefs = useRef([]); // 각 카테고리의 묶음 참조를 저장
+  const [services, setServices] = useState({});
 
-  // Fetch the JSON data
+  // Fetch Services Data
   useEffect(() => {
-    fetch("/data.json") // Ensure your data.json is placed in the `public` folder
-      .then((response) => {
+    const fetchServices = async () => {
+      try {
+        const response = await fetch("/data.json");
         if (!response.ok) throw new Error("Failed to fetch data");
-        return response.json();
-      })
-      .then((data) => setServices(data.services || []))
-      .catch((error) => console.error(error));
+        const data = await response.json();
+        setServices(data.services || {});
+      } catch (error) {
+        console.error("Error fetching services:", error);
+      }
+    };
+    fetchServices();
   }, []);
 
-  // GSAP Animation
-  useEffect(() => {
-    if (categoryRefs.current.length > 0) {
-      gsap.fromTo(
-        categoryRefs.current, // 모든 카테고리 묶음에 애니메이션 적용
-        { opacity: 0, y: 50 }, // 시작 상태
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          stagger: 0.3, // 카테고리 묶음 간의 애니메이션 순차적 실행
-          ease: "power3.out",
-        }
-      );
-    }
-  }, [services]); // 서비스 데이터가 로드된 후 실행
-
   return (
-    <div className="bg-black pt-[5rem]">
+    <div className="bg-black pt-[5rem] min-h-screen text-white">
       <div className="container mx-auto p-6">
-        <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
-          Our Services
+        <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent ">
+          SERVICES
         </h2>
-        {Object.keys(services).map((category, index) => (
-          <div
-            key={category}
-            ref={(el) => (categoryRefs.current[index] = el)} // 각 카테고리의 부모 요소를 참조
-            className="service-category mb-10 opacity-0 translate-y-10" // 초기 상태
-          >
-            <h2 className="text-2xl font-semibold text-gray-700 mb-4 border-b pb-2 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
-              {category.toUpperCase()}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-              {services[category].map((service) => (
-                <ServiceItem key={service.id} service={service} />
-              ))}
-            </div>
-          </div>
-        ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {Object.keys(services).map((category) => (
+            <ServiceCategory
+              key={category}
+              category={category}
+              services={services[category]}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
