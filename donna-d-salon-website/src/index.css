@@ -3,3 +3,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.slick-prev,
+.slick-next {
+  display: block !important; /* 강제로 화살표 표시 */
+  z-index: 10; /* 다른 요소보다 위에 표시 */
+  font-size: 1.5rem; /* 화살표 크기 */
+  color: #fff; /* 화살표 색상 */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #fff; /* 기본 화살표 색상 */
+}
+
+.slick-prev {
+  left: -40px; /* 왼쪽 위치 조정 */
+}
+
+.slick-next {
+  right: -40px; /* 오른쪽 위치 조정 */
+}

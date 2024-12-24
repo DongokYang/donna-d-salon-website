@@ -11,7 +11,7 @@ export default function Header() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="text-white p-4 fixed top-0 right-0 left-0 z-[100] bg-black">
+    <header className="text-white p-4 fixed top-0 right-0 left-0 z-[100]">
       <nav className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div>
