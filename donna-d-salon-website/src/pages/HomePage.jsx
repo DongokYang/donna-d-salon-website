@@ -8,7 +8,7 @@ import bg_image from "/public/image/home/bg_image.jpg";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <img
         src={bg_image}
         alt="Background image"

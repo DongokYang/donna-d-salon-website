@@ -14,6 +14,8 @@ module.exports = {
         customGoldStart: "#FFC74D",
         customGoldEnd: "#D98F20",
         customGrayDark: "#1D1D1D",
+        customBlack: "#121212",
+
       },
 
       backgroundImage: {

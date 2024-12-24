@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "/public/image/global/logo.png";
-import GradientButton from "../elements/GradientButton";
-import BookNowButton from "./appointmentbutton";
+import BookNowButton from "./BookNowButton";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -127,7 +126,7 @@ export default function Header() {
         >
           <h4>GALLERY</h4>
         </NavLink>
-        <GradientButton to="/book-now" text="BOOK NOW" />
+        <BookNowButton/>
       </div>
 
       {/* Overlay */}

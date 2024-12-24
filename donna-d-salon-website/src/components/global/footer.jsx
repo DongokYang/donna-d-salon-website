@@ -5,7 +5,7 @@ import logo from "/public/image/global/logo.png"
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-10">
+    <footer className="bg-customBlack text-white py-10">
       {/* Wrapper */}
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-start px-8 space-y-10 md:space-y-0">
         {/* Info Section */}
