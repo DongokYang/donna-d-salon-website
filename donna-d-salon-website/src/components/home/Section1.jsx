@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import main_image from "/public/image/home/main_image.png";
-import GradientButton from "../elements/GradientButton";
+import BookNowButton from "../global/BookNowButton";
 import { gsap } from "gsap";
 
 function Section1() {
@@ -41,7 +41,7 @@ function Section1() {
             <br /> you can trust us with your hair
           </p>
         </div>
-        <GradientButton to="/book-now" text="BOOK NOW" />
+        <BookNowButton />
       </div>
 
       <img
