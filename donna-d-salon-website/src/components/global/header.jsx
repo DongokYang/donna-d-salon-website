@@ -126,7 +126,7 @@ export default function Header() {
         >
           <h4>GALLERY</h4>
         </NavLink>
-        <BookNowButton/>
+        <BookNowButton />
       </div>
 
       {/* Overlay */}
