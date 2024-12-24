@@ -52,11 +52,11 @@ function Section3() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 600,
+    speed: 1500,
     slidesToShow: 2.1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,

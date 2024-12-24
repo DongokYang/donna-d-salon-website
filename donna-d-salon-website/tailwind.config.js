@@ -14,6 +14,8 @@ module.exports = {
         customGoldStart: "#FFC74D",
         customGoldEnd: "#D98F20",
         customGrayDark: "#1D1D1D",
+        customBlack: "#121212",
+
       },
 
       backgroundImage: {
@@ -28,7 +30,7 @@ module.exports = {
 
       fontSize: {
         h1: ["30px", { lineHeight: "1.5", letterSpacing: "0.03em" }],
-        "h1-md": ["38px", { lineHeight: "1.5" }],
+        "h1-md": ["35px", { lineHeight: "1.5" }],
         h2: ["23px", { lineHeight: "1.5" }],
         "h2-md": ["25px", { lineHeight: "1.5" }],
         h3: ["38px", { lineHeight: "1.5" }],
