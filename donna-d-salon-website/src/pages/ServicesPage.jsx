@@ -26,7 +26,7 @@ const ServiceCategory = forwardRef(({ category, services }, ref) => {
 
 export default function Services() {
   const [services, setServices] = useState({});
-  const [isLoaded, setIsLoaded] = useState(false); 
+  const [isLoaded, setIsLoaded] = useState(false);
   const categoryRefs = useRef([]);
 
   // Fetch Services Data
@@ -37,7 +37,7 @@ export default function Services() {
         if (!response.ok) throw new Error("Failed to fetch data");
         const data = await response.json();
         setServices(data.services || {});
-        setIsLoaded(true); 
+        setIsLoaded(true);
       } catch (error) {
         console.error("Error fetching services:", error);
       }
@@ -83,7 +83,7 @@ export default function Services() {
 
           <div className="grid">
             {Object.keys(services)
-              .filter((category, index) => index >= 3 && index < 6) 
+              .filter((category, index) => index >= 3 && index < 6)
               .map((category, index) => (
                 <ServiceCategory
                   key={category}

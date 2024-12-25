@@ -16,7 +16,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="h-screen bg-black flex flex-col items-center justify-center">
+    <div className="min-h-screen py-[5rem] bg-customBlack flex flex-col items-center justify-center">
       <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
         Gallery
       </h2>
