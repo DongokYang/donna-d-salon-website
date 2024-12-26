@@ -14,14 +14,13 @@ export default function Home() {
         alt="Background image"
         className="absolute -z-10 top-0 right-0 left-0 h-full w-full object-cover"
       />
-    <div>
-      <Section1 />
-      <Banner />
-      <Section2 />
-      <Section3 />
-      <Section4 />
+      <div>
+        <Section1 />
+        <Banner />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+      </div>
     </div>
-    </div>
-
   );
 }
