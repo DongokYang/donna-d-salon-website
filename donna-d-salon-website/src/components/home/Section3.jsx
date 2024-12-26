@@ -104,10 +104,7 @@ function Section3() {
               (review.content.length > 150 ? "..." : "");
 
           return (
-            <div
-              key={index}
-              className="review-slide w-full p-5" // 슬라이드 간의 간격 추가
-            >
+            <div key={index} className="review-slide w-full p-5">
               <div className="flex items-center">
                 <div className="h-fit bg-white p-5 rounded-xl shadow-lg items-center">
                   <div className="gap-3 grid items-center">
@@ -127,22 +124,22 @@ function Section3() {
                         </button>
                       )}
                     </p>
-
                     <p className="text-black text-center">
                       - {review.reviewer}
                     </p>
                   </div>
+                  {/* Display image dynamically */}
                   <div className="lg:hidden">
                     <img
-                      src="https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      src={review.image}
                       alt={`${review.reviewer}'s profile`}
-                      className="object-cover aspect-square mt-5 w-full h-auto mx-auto"
+                      className="object-cover rounded-full w-32 h-32 mx-auto"
                     />
                   </div>
                 </div>
                 <div className="hidden lg:block">
                   <img
-                    src="https://images.pexels.com/photos/1987301/pexels-photo-1987301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    src={review.image}
                     alt={`${review.reviewer}'s profile`}
                     className="border border-customGoldStart -translate-x-3 max-w-[40rem] w-full h-auto object-cover mx-auto"
                   />
