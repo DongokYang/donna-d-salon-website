@@ -184,6 +184,7 @@
   "staffs": [
     {
       "name": "Donna",
+      "image": "/src/assets/about/staff-Donna.png",
       "role": "Owner & Master Colorist",
       "description": "Donna is a proud mother of four and the owner of Donna D’ Stylist Salon. She is a licensed stylist with over 17 years of experience and is also known for being a Master Colorist. Donna has been in many different positions in the hair industry. She started as a regular stylist and moved her way to a Government Hair Examiner, an Aveda Educator, and finally to Salon Owner. Through the years, Donna has earned her name as a Master Colorist. As a Master Colorist, she is an expert in creating gorgeous shades of brown, blonde, and silver. She can handle the toughest color corrections and can properly bring your hair to the colour of your dreams. Her signature haircuts are precise and are specially designed for every client. Donna has traveled abroad to several hair shows and classes to always keep updated with the latest trends. Hair is her passion. She believes that being a hairdresser gives her the ability to help people feel better about themselves and transform their lives for the better.",
       "certificates": [
@@ -213,6 +214,7 @@
     },
     {
       "name": "Dana",
+      "image": "/src/assets/about/staff-Dana.png",
       "role": "Senior Stylist",
       "description": "Dana is a Senior stylist with over 4 years of experience in the hair industry. She has a strong interest in Asian-inspired hair hairstyles and is looking at creative ways to deliver modern looks. Dana likes being able to customize the look of her clients to suit their lifestyle and personality. In 2019, Dana attended the BTC Show to expand her knowledge in hair. From that show, she was inspired by influencer stylists to continue to work on her craft and improve as a hairdresser. Dana is an excellent listener and is ready to make her next guest’s haircut their best!",
       "certificates": [
@@ -224,6 +226,7 @@
     {
       "name": "Donwin",
       "role": "Junior Stylist",
+      "image": "/src/assets/about/staff-Donwin.png",
       "description": "Donwin is a Junior Stylist who graduated from the Aveda Institute in May. He’s an eager hairstylist whose number one priority is making sure that you leave the salon feeling better than when you came in. Donwin is a well-rounded hairstylist and is studying barbering. He’s working hard and aspires to become Donna D’ Stylists best barber. He specializes in head massages and washes so he’s sure to leave you feeling relaxed and refreshed. Donwin’s head massages are based on Ayurvedic Head Massage techniques. He’s learned some of these techniques from Aveda and is continually working on improving this skill. He believes that the head wash at the sink is the most personable experience someone can ever have in the salon.",
       "certificates": [
         "Certificate of Completion from the Aveda Institute Winnipeg in 2020",
@@ -233,11 +236,13 @@
     {
       "name": "Tashina",
       "role": "Junior Stylist",
+      "image": "/src/assets/about/staff-Tashina.png",
       "description": "Tashina Roulette is a Junior Stylist who graduated from the R.B. Russell Vocational Pre-industry Hairstyling Program in June 2021. She was at the top of her class earning several in-class and industry awards. Tashina specializes in braiding and is keen on improving her craft. She is creative, determined, dependable and hardworking. Tashina is eager to learn all about hair coloring and the variety of techniques involved."
     },
     {
       "name": "Shae-D",
       "role": "Apprentice Stylist",
+      "image": "/src/assets/about/staff-Shae-D.png",
       "description": "Shae-D graduated top of her class from RB Russell Pre-industry Hairstyling Program, she is an apprentice stylist working towards her red seal certificate to become a full-time hairstylist. Shae-D specializes in color services especially when it comes to blondes as well as braiding hair. She loves doing creative designs. Changing someone's appearance and seeing them happy is a rewarding feeling."
     }
   ]
