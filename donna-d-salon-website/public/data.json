@@ -146,38 +146,47 @@
   "reviews": {
     "review_1": {
       "reviewer": "Charm",
+      "image": "/src/assets/home/customer1.jpg",
       "content": "My first visit was actually just for a haircut. When Donna was finished with my hair it was exactly what I want. Donna is really awesome! She has many years of experience and very trustworthy. I highly recommend her! I'd like to thank Donwin as well. He's really nice and I love the scalp massage. He's such a pro! lol I forgot the name of her daughter who did the haircut to my husband. She really did a great job on his hair too. I can say that the price is right! because we're so happy with the service and experience. The place is very welcoming and comfortable too. Thanks again to Donna and her team!! ❤"
     },
     "review_2": {
       "reviewer": "Marienette Mallari",
+      "image": "/src/assets/home/customer2.jpg",
       "content": "Very professional. They did exactly the style I asked. They will give you a good head massage while shampooing your hair. You get what you paid for. Excellent service. Will definitely come back. Thanks to Donna."
     },
     "review_3": {
       "reviewer": "Daniel",
+      "image": "/src/assets/home/customer3.jpg",
       "content": "Great value and experience overall. I booked my appointment with Donwin and I showed up at the appointed time. He personally let me in and proceeded with the usual COVID screening measures and took my temp. Masks were provincially mandatory when I went. Donwin began with cleaning and conditioning my hair and then discussed my preferences with the look I was going for. I showed him a picture of my desired look, and he took my ad hoc suggestions in stride. He was professional, verbal about his actions, and personable with conversation. He didn't usually work on beards but I asked him to clean it up for me and he did with no issues or fuss. Donna was great with consultative suggestions with various aspects of the beard as well. Donwin made it happen with no problems. Pictures attached from 3 times I went, 2 pics per time. Thanks, Donwin!"
     },
     "review_4": {
       "reviewer": "Karen Purugganan",
+      "image": "/src/assets/home/customer4.jpg",
       "content": "Love their service, staff and products. I got a balayage done by Dana alongside Donna and Donwin. It turned out amazing and they were all so professional, informative and nice. Being somebody who isn't experienced or used to maintaining hair, Dana took the time to answer my questions, explain certain things and recommend some products for my new hair! If you're looking for a new stylist or salon, this is the place to go. Definitely worth your time and money! Already looking forward to my next visit."
     },
     "review_5": {
       "reviewer": "Kyle Miller",
+      "image": "/src/assets/home/customer5.jpg",
       "content": "This place is super awesome place looks nice really well done and the employees are like SUPER friendly and nice hair cuts are amazing as well 😀 😊  and its actually not 2 expensive either love this place.........I wouldn't normally rate a hair salon or barber but this place is really great just AWESOME"
     },
     "review_6": {
       "reviewer": "Dixie Bughaw",
+      "image": "/src/assets/home/customer6.jpg",
       "content": "I really loved my experience at Donna D' Salon! Not only did I come out with a beautiful cut and style from Dana, but the atmosphere and the people were amazing. They were able to accommodate me last minute and gave me the cut that I envisioned to have. I will definitely come back and bring my mom next time!"
     },
     "review_7": {
       "reviewer": "Joelle Roulette",
+      "image": "/src/assets/home/customer7.jpg",
       "content": "Went here a few times and got my hair done. Absolutely best service I got ever! My stylist was Tashina. She was very friendly and took nice care of my hair. I would really recommend her!!"
     },
     "review_8": {
       "reviewer": "Jann Ledda",
+      "image": "/src/assets/home/customer8.jpg",
       "content": "Just got my haircut by Dana, and I couldn’t be happier! She truly listened to what I wanted and gave me exactly the look I envisioned. Her attention to detail and skill are incredible, and she made the whole experience so relaxing and enjoyable. I highly recommend Dana to anyone looking for a fantastic stylist! For Men and Women."
     },
     "review_9": {
       "reviewer": "Kathy Cruz",
+      "image": "/src/assets/home/customer9.jpg",
       "content": "I have been going to Donna’s Hairstylist for years. She’s been the only hairstylist that I trust because she knows how to work with someone that has thick, frizzy hair. She also takes her time, she’s not rushing. And what I love the most is the service."
     }
   },
