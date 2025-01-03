@@ -62,8 +62,8 @@ export default function Services() {
   }, [isLoaded]);
 
   return (
-    <div className="bg-customBlack py-[5rem] min-h-screen text-white">
-      <div className="container mx-auto p-6 grid ">
+    <div className="bg-customBlack py-[7rem] min-h-screen text-white">
+      <div className="container mx-auto grid ">
         <h1 className="bg-white text-center mb-12 bg-gradient-to-r from-customGoldStart to-customGoldEnd bg-clip-text text-transparent">
           SERVICES
         </h1>
