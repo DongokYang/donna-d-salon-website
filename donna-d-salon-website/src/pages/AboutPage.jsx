@@ -1,4 +1,4 @@
-import AboutUs from "/src/assets/about/AboutUs.png";
+import AboutUs from "/public/image/global/AboutUs.png";
 import React, { useEffect, useState, useRef, forwardRef } from "react";
 import StaffSection from "../components/About/StaffSection.jsx";
 
